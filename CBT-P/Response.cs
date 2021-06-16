@@ -10,7 +10,7 @@ namespace CBT_P
     /// <summary>
     /// The available responses for CBT-P.
     /// </summary>
-    public enum Responses
+    public enum Response
     {
         /// <summary>
         /// When a movement command was received and commenced.

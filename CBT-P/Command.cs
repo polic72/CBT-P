@@ -10,7 +10,7 @@ namespace CBT_P
     /// <summary>
     /// The available commands for CBT-P.
     /// </summary>
-    public enum Commands
+    public enum Command
     {
         #region Movement Start
 
