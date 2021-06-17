@@ -59,6 +59,11 @@ namespace CBT_P
         /// </summary>
         StopRight,
 
+        /// <summary>
+        /// Stops all movement.
+        /// </summary>
+        Stop,
+
         #endregion Movement End
 
 
