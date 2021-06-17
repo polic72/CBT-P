@@ -20,9 +20,10 @@ The communication protocol for the camera bot.
 - "Stop": Stops any and all movement of the camera.
 
 #### Other
-- "Disconnect" (might not include): Disconnects the client from the server.
+- "Disconnect": Disconnects the client from the server.
 
 
 ## Responses (from server to client):
 - "Ok": When a movement command was received and commenced.
 - "Bad": When an unkown command was received.
+- "Goodbye": When the server is gracefully cutting connection to the client.
