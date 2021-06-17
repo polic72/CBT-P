@@ -20,6 +20,11 @@ namespace CBT_P
         /// <summary>
         /// When an unkown command was received.
         /// </summary>
-        Bad
+        Bad,
+
+        /// <summary>
+        /// When the server is disconnecting from the client.
+        /// </summary>
+        Goodbye
     }
 }

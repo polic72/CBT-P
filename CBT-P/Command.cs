@@ -57,8 +57,14 @@ namespace CBT_P
         /// <summary>
         /// Stops the camera from moving right.
         /// </summary>
-        StopRight
+        StopRight,
 
         #endregion Movement End
+
+
+        /// <summary>
+        /// Gracefully disconnects from the server.
+        /// </summary>
+        Disconnect
     }
 }
